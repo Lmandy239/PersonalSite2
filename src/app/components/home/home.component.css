@@ -1,3 +1,9 @@
+
+h1{
+  font-family: Garet ExtraBold;
+}
+
+
 #hero{
   padding-top: 5%;
 }
@@ -18,3 +24,34 @@ section span {
   display: flex;
   gap: 5px;
 }
+
+
+.banner-section {
+
+  position:absolute;
+  left: 0;
+  right: 0;
+
+  height: 600px;
+  background-size:100%;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+#hero{
+  padding-top: 390px;
+  background-color: #eeeeee;
+  border-width: 100px;
+
+}
+
+.about{
+  outline-style: solid;
+  background-color: #dfcdc3;
+  border-color: gray;
+}
+
